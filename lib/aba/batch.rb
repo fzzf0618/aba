@@ -17,7 +17,7 @@ class Aba
 
     # User ID
     validates_presence_of :user_id
-    validates_max_length  :user_id, 6
+    validates_max_length  :user_id, 9
     validates_integer     :user_id, false
 
     # Description
